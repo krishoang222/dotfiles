@@ -9,3 +9,9 @@ brew install --cask font-sf-mono
 brew install --cask font-sf-pro
 curl -L https://github.com/kvndrsslr/sketchybar-app-font/releases/download/v2.0.28/sketchybar-app-font.ttf -o $HOME/Library/Fonts/sketchybar-app-font.ttf
 brew install jq
+
+
+# MacOS config (on user logged in profile)
+defaults write com.apple.universalaccess reduceMotion -bool true
+defaults write com.apple.finder DisableAllAnimations -bool true
+defaults write com.apple.Finder AppleShowAllFiles -bool true
