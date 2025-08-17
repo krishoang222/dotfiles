@@ -9,6 +9,7 @@ defaults write com.knollsoft.Rectangle screenEdgeGapTop -int {margin_top:int}
 - Reference dotfiles:
   - [repo dotfiles](https://github.com/FelixKratz/dotfiles/tree/master)
   - [blog setup](https://www.josean.com/posts/sketchybar-setup)
+  - [standard config vim](https://github.com/amix/vimrc/blob/master/vimrcs/basic.vim)
 
 ## To-do list
 
