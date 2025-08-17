@@ -13,5 +13,9 @@ brew install jq
 
 # MacOS config (on user logged in profile)
 defaults write com.apple.universalaccess reduceMotion -bool true
+defaults write com.apple.spaces spans-displays -bool false # Displays have separate Spaces
+defaults write com.apple.dock autohide -bool true
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false # 'false' Scrolling and swiping gesture will have same direction
 defaults write com.apple.finder DisableAllAnimations -bool true
-defaults write com.apple.Finder AppleShowAllFiles -bool true
+defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write com.apple.finder FXPreferredViewStyle -string "clmv" # 'clmv' set view in Finder as Column View
