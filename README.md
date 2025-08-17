@@ -1,0 +1,1 @@
+- [ ] write an install.sh script to backup and create symbol link from git repo to configuration folder (reference: https://github.com/mehd-io/dotfiles/blob/main/install.sh)
