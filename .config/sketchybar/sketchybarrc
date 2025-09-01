@@ -22,7 +22,7 @@ bar=(
   sticky=on
   padding_left=10
   padding_right=10
-  color=$BAR_COLOR
+  color="$BAR_COLOR"
 )
 sketchybar --bar "${bar[@]}"
 
@@ -38,9 +38,9 @@ default=(
   icon.font="SF Pro:Semibold:15.0"
   label.font="SF Pro:Semibold:15.0"
   # label.font="Hack Nerd Font:Regular:12.0"
-  icon.color=$WHITE
-  label.color=$WHITE
-  background.color=$ITEM_BG_COLOR
+  icon.color="$WHITE"
+  label.color="$WHITE"
+  background.color="$ITEM_BG_COLOR"
   background.corner_radius=5
   background.height=24
   icon.padding_left=10
