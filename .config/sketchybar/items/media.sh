@@ -4,7 +4,8 @@ sketchybar --add item media e \
            --set media label.color=$ACCENT_COLOR \
                        label.max_chars=20 \
                        icon.padding_left=0 \
-                       scroll_texts=off \
+                       scroll_texts=on \
+                       scroll_duration=1000 \
                        icon=􀑪             \
                        icon.color=$ACCENT_COLOR   \
                        background.drawing=off \
